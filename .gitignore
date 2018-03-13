@@ -1,0 +1,11 @@
+# for macs
+.DS_Store
+
+# leave out node modules - we don't need to send that along
+node_modules/
+
+# don't include build folder, everything will just get rebuilt anyways.
+dist/
+
+# don't include intelij files
+.idea/
